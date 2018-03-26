@@ -1,3 +1,10 @@
+/home/igor/prj/java/JavaFXProjects/TeJavaFXSnake/src/main/java/com/igorternyuk/snake/model/Snake.java
+/home/igor/prj/java/JavaFXProjects/TeJavaFXSnake/src/main/java/com/igorternyuk/snake/model/Poison.java
 /home/igor/prj/java/JavaFXProjects/TeJavaFXSnake/src/main/java/com/igorternyuk/snake/MainController.java
+/home/igor/prj/java/JavaFXProjects/TeJavaFXSnake/src/main/java/com/igorternyuk/snake/ResourceManager.java
+/home/igor/prj/java/JavaFXProjects/TeJavaFXSnake/src/main/java/com/igorternyuk/snake/Renderer.java
 /home/igor/prj/java/JavaFXProjects/TeJavaFXSnake/src/main/java/com/igorternyuk/snake/SnakeApp.java
-/home/igor/prj/java/JavaFXProjects/TeJavaFXSnake/src/main/java/com/igorternyuk/snake/Controller.java
+/home/igor/prj/java/JavaFXProjects/TeJavaFXSnake/src/main/java/com/igorternyuk/snake/model/Game.java
+/home/igor/prj/java/JavaFXProjects/TeJavaFXSnake/src/main/java/com/igorternyuk/snake/model/Food.java
+/home/igor/prj/java/JavaFXProjects/TeJavaFXSnake/src/main/java/com/igorternyuk/snake/model/Direction.java
+/home/igor/prj/java/JavaFXProjects/TeJavaFXSnake/src/main/java/com/igorternyuk/snake/model/GameStatus.java

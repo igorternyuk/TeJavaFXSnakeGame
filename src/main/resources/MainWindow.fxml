@@ -1,8 +1,28 @@
-<?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.canvas.Canvas?>
-<BorderPane fx:controller="com.igorternyuk.snake.MainController"
-            xmlns:fx="http://javafx.com/fxml" prefWidth="800" prefHeight="600">
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.igorternyuk.snake.MainController" prefWidth="320" prefHeight="375">
+    <top>
+        <MenuBar>
+            <menus>
+                <Menu text="Game">
+                    <MenuItem text="Start new game" onAction="#onBtnNewGameClicked"/>
+                    <MenuItem text="Pause/Resume" onAction="#onBtnPauseClicked"/>
+                    <MenuItem text="Exit" onAction="#onBtnExitClicked"/>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
     <center>
-        <Canvas fx:id="canvas" width="800" height="600" />
+        <Canvas fx:id="canvas" width="320" height="320"/>
     </center>
+    <bottom>
+        <HBox spacing="5" alignment="CENTER">
+            <Button prefWidth="100" text="New game" onAction="#onBtnNewGameClicked"/>
+            <Button prefWidth="130" text="Pause/Resume" onAction="#onBtnPauseClicked"/>
+            <Button prefWidth="100" text="Exit" onAction="#onBtnExitClicked"/>
+        </HBox>
+    </bottom>
 </BorderPane>
